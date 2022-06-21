@@ -1,4 +1,4 @@
-/* || General Classes */
+/* || General Classes and Selectors */
 
 .full-width {
     width: 1200px;
@@ -9,6 +9,27 @@
 .half-width {
     width: 600px;
     float: left;
+}
+
+.sidebar {
+    width: 35%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1.0);
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1.0);
 }
 
 /* || Header Selector */
@@ -61,7 +82,7 @@ nav a:hover {
     color: rgba(222, 28, 137, 1.0);
 }
 
-/* || Home Hero Class */
+/* || Home Hero Section Classes */
 
 .home-hero {
     align-items: center;
@@ -73,3 +94,141 @@ nav a:hover {
     width: 100%;
     height: 666px;
 }
+
+.home-hero-bottom {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.home-hero-bottom h4 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1.0);
+    padding-bottom: 5px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: rgba(52, 87, 24, 1.0);
+    color: rgba(255, 255, 255, 1.0);
+    border: 2px solid rgba(52, 87, 24, 1.0);
+    padding: 5px 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(113, 18, 37, 1.0);
+    color: rgba(244, 210, 85, 1.0);
+    border: 2px solid rgba(113, 18, 37, 1.0);
+}
+
+/* || About Hero Section Class */
+
+.about-hero {
+    background-image: url('../img/tricia-composite.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 666px;
+    width: 65%;
+    float: left;
+}
+
+/* || Contact Hero Section Classes and Selectors */
+
+.contact-hero {
+    background-image: url('../img/peonies-composite.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 666px;
+    width: 65%;
+    float: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgba(52, 87, 24, 1.0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(113, 18, 37, 1.0);
+    color:rgba(244, 210, 85, 1.0);
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* || Footer Section Classes */
+
+.footer {
+    background-color: rgba(103, 163, 68, 1.0);
+    border-top: 5px solid rgba(222, 28, 137, 1.0);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+}
+
+.copyright p {
+    margin: 0 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 1.0);
+}
+
+.fa a {
+    padding: 10px;
+    font-size: 13px;
+    width: 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  

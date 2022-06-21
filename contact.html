@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!--HEADER-->    
@@ -15,7 +16,7 @@
         <div class="full-width">
             <div class="half-width">
                 <div class="logo">
-                    <a href="index.html"><img src="img/logo.jpg" class="logo img" alt="Powers Web Page Logo" /></a>
+                    <a href="index.html"><img src="img/logo.jpg" class="logo img" alt="Patricia E. Powers | Web Developer" /></a>
                 </div>
             </div>
         </div>
@@ -29,6 +30,45 @@
                 </ul>
             </nav>
         </div>
-    </header>    
+    </header>
+<!--CONTACT PAGE - HERO SECTION--> 
+<main>
+    <section class="contact-hero"></section>
+    <aside class="sidebar">
+        <h1>let's connect</h1>
+        <p>Feel free to reach out if you are interested in working together, being friends, 
+        or discussing the best sponge candy spots! You can also e-mail me at <a class="externalLink" 
+        href="mailto:patricia.e.powers@gmail.com">patricia.e.powers@gmail.com</a>. All fields are required.</p>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject name..">
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write message here.." style="height:200px"></textarea>
+          
+              <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </aside>
+    <div class="clearfix"></div>
+</main>
+<!--FOOTER SECTION-->
+    <footer class="footer">
+        <div class="copyright">
+            <p>© Patricia E. Powers 2022</p>
+        </div>
+        <div class="fa">
+            <a href="https://twitter.com/pepowersdesign" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/tricia.powers.nt/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/patriciaepowerswebdev/" target="_blank" class=" fa fa-linkedin"></a>
+        </div>
+    </footer>
 </body>
 </html>
